@@ -1,0 +1,152 @@
+[
+    {
+        "img": "https://i.ibb.co/7zVJ6Vf/virat-kohli.jpg",
+        "name": "Virat Kohli",
+        "country": "India",
+        "playing_role": "Batsman",
+        "rating": 9.5,
+        "bowling_style": "Right-arm medium",
+        "batting_style": "Right-hand bat",
+        "price": "$1,800,000"
+    },
+    {
+        "img": "https://i.ibb.co/VLdM5Rj/ben-stokes.jpg",
+        "name": "Ben Stokes",
+        "country": "England",
+        "playing_role": "All-Rounder",
+        "rating": 9.2,
+        "bowling_style": "Right-arm fast-medium",
+        "batting_style": "Left-hand bat",
+        "price": "$1,600,000"
+    },
+    {
+        "img": "https://i.ibb.co/3WvrL3s/kane-williamson.jpg",
+        "name": "Kane Williamson",
+        "country": "New Zealand",
+        "playing_role": "Batsman",
+        "rating": 9.0,
+        "bowling_style": "Right-arm offbreak",
+        "batting_style": "Right-hand bat",
+        "price": "$1,400,000"
+    },
+    {
+        "img": "https://i.ibb.co/zskwYX4/jasprit-bumrah.jpg",
+        "name": "Jasprit Bumrah",
+        "country": "India",
+        "playing_role": "Bowler",
+        "rating": 9.4,
+        "bowling_style": "Right-arm fast",
+        "batting_style": "Right-hand bat",
+        "price": "$1,500,000"
+    },
+    {
+        "img": "https://i.ibb.co/4ZZ2X9w/david-warner.jpg",
+        "name": "David Warner",
+        "country": "Australia",
+        "playing_role": "Batsman",
+        "rating": 8.9,
+        "bowling_style": "Right-arm legbreak",
+        "batting_style": "Left-hand bat",
+        "price": "$1,300,000"
+    },
+    {
+        "img": "https://i.ibb.co/5cnj7Jf/rashid-khan.jpg",
+        "name": "Rashid Khan",
+        "country": "Afghanistan",
+        "playing_role": "Bowler",
+        "rating": 9.1,
+        "bowling_style": "Right-arm legbreak googly",
+        "batting_style": "Right-hand bat",
+        "price": "$1,200,000"
+    },
+    {
+        "img": "https://i.ibb.co/H7PSF6h/babar-azam.jpg",
+        "name": "Babar Azam",
+        "country": "Pakistan",
+        "playing_role": "Batsman",
+        "rating": 9.3,
+        "bowling_style": "Right-arm offbreak",
+        "batting_style": "Right-hand bat",
+        "price": "$1,700,000"
+    },
+    {
+        "img": "https://i.ibb.co/S7XvM1V/steve-smith.jpg",
+        "name": "Steve Smith",
+        "country": "Australia",
+        "playing_role": "Batsman",
+        "rating": 9.0,
+        "bowling_style": "Right-arm legbreak",
+        "batting_style": "Right-hand bat",
+        "price": "$1,500,000"
+    },
+    {
+        "img": "https://i.ibb.co/F8zT7Tk/ms-dhoni.jpg",
+        "name": "MS Dhoni",
+        "country": "India",
+        "playing_role": "Wicket-Keeper",
+        "rating": 9.4,
+        "bowling_style": "Right-arm medium",
+        "batting_style": "Right-hand bat",
+        "price": "$1,600,000"
+    },
+    {
+        "img": "https://i.ibb.co/0CZQycx/shakib-al-hasan.jpg",
+        "name": "Shakib Al Hasan",
+        "country": "Bangladesh",
+        "playing_role": "All-Rounder",
+        "rating": 9.1,
+        "bowling_style": "Left-arm orthodox",
+        "batting_style": "Left-hand bat",
+        "price": "$1,400,000"
+    },
+    {
+        "img": "https://i.ibb.co/vw8SNsF/andre-russell.jpg",
+        "name": "Andre Russell",
+        "country": "West Indies",
+        "playing_role": "All-Rounder",
+        "rating": 9.0,
+        "bowling_style": "Right-arm fast",
+        "batting_style": "Right-hand bat",
+        "price": "$1,300,000"
+    },
+    {
+        "img": "https://i.ibb.co/pfCysVd/mujeeb-ur-rahman.jpg",
+        "name": "Mujeeb Ur Rahman",
+        "country": "Afghanistan",
+        "playing_role": "Bowler",
+        "rating": 8.8,
+        "bowling_style": "Right-arm offbreak",
+        "batting_style": "Right-hand bat",
+        "price": "$1,100,000"
+    },
+    {
+        "img": "https://i.ibb.co/ZfCNW2X/trent-boult.jpg",
+        "name": "Trent Boult",
+        "country": "New Zealand",
+        "playing_role": "Bowler",
+        "rating": 9.2,
+        "bowling_style": "Left-arm fast-medium",
+        "batting_style": "Right-hand bat",
+        "price": "$1,300,000"
+    },
+    {
+        "img": "https://i.ibb.co/N6mqg9K/quinton-de-kock.jpg",
+        "name": "Quinton de Kock",
+        "country": "South Africa",
+        "playing_role": "Wicket-Keeper",
+        "rating": 9.0,
+        "bowling_style": "Right-arm medium",
+        "batting_style": "Left-hand bat",
+        "price": "$1,200,000"
+    },
+    {
+        "img": "https://i.ibb.co/YpMDVqP/glenn-maxwell.jpg",
+        "name": "Glenn Maxwell",
+        "country": "Australia",
+        "playing_role": "All-Rounder",
+        "rating": 8.9,
+        "bowling_style": "Right-arm offbreak",
+        "batting_style": "Right-hand bat",
+        "price": "$1,250,000"
+    }
+]
