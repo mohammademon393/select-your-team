@@ -1,8 +1,11 @@
-import logoImg from '../../assets/logo.png';
-import coinImg from '../../assets/dollar.png';
+import logoImg from "../../assets/logo.png";
+import coinImg from "../../assets/dollar.png";
+import bgImg from "../../assets/bg-shadow.png";
+import banner from "../../assets/banner-main.png";
 
 const Navber = () => {
-    return (
+  return (
+    <div>
       <div className="navbar max-w-[1280px] mx-auto">
         <div className="flex-1">
           <a className="text-xl">
@@ -17,7 +20,23 @@ const Navber = () => {
           </span>
         </div>
       </div>
-    );
+
+      <div
+        style={{ backgroundImage: `url(${bgImg})` }}
+        className="max-w-[1280px] mx-auto rounded-2xl bg-black bg-center h-[400px] flex flex-col items-center justify-center text-white"
+      >
+        <img className="w-100%" src={banner} alt="" />
+        <h1 className="text-[40px] font-bold">
+          Assemble Your Ultimate Dream 11 Cricket Team
+        </h1>
+        <p>Beyond Boundaries Beyond Limits</p>
+
+        <button className="btn mt-2 text-black bg-[#e7fe29]">
+          Claim Free Credit
+        </button>
+      </div>
+    </div>
+  );
 };
 
 export default Navber;
