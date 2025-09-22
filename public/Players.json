@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "img": "https://i.ibb.co.com/8nZg2r3d/v-kholi.webp",
         "name": "Virat Kohli",
         "country": "India",
@@ -10,6 +11,7 @@
         "price": "$1,800,000"
     },
     {
+        "id": 2,
         "img": "https://i.ibb.co.com/kVnwNdFF/ben.jpg",
         "name": "Ben Stokes",
         "country": "England",
@@ -20,6 +22,7 @@
         "price": "$1,600,000"
     },
     {
+        "id": 3,
         "img": "https://i.ibb.co.com/Xr7TXv4X/kane.jpg",
         "name": "Kane Williamson",
         "country": "New Zealand",
@@ -30,6 +33,7 @@
         "price": "$1,400,000"
     },
     {
+        "id": 4,
         "img": "https://i.ibb.co.com/7txXHtcw/bumra.webp",
         "name": "Jasprit Bumrah",
         "country": "India",
@@ -40,6 +44,7 @@
         "price": "$1,500,000"
     },
     {
+        "id": 5,
         "img": "https://i.ibb.co.com/5Wp2qLnC/debid.jpg",
         "name": "David Warner",
         "country": "Australia",
@@ -50,6 +55,7 @@
         "price": "$1,300,000"
     },
     {
+        "id": 6,
         "img": "https://i.ibb.co.com/zW0BgLMH/rashid.webp",
         "name": "Rashid Khan",
         "country": "Afghanistan",
@@ -60,6 +66,7 @@
         "price": "$1,200,000"
     },
     {
+        "id": 7,
         "img": "https://i.ibb.co.com/5xjVhTG4/babr.jpg",
         "name": "Babar Azam",
         "country": "Pakistan",
@@ -70,6 +77,7 @@
         "price": "$1,700,000"
     },
     {
+        "id": 8,
         "img": "https://i.ibb.co.com/n8BkY4Sv/smith.jpg",
         "name": "Steve Smith",
         "country": "Australia",
@@ -80,6 +88,7 @@
         "price": "$1,500,000"
     },
     {
+        "id": 9,
         "img": "https://i.ibb.co.com/4nmnLjWd/dhoni.jpg",
         "name": "MS Dhoni",
         "country": "India",
@@ -90,6 +99,7 @@
         "price": "$1,600,000"
     },
     {
+        "id": 10,
         "img": "https://i.ibb.co.com/gMNTHtQS/Shakib.jpg",
         "name": "Shakib Al Hasan",
         "country": "Bangladesh",
@@ -100,6 +110,7 @@
         "price": "$1,400,000"
     },
     {
+        "id": 11,
         "img": "https://i.ibb.co.com/3y8fL5BQ/russel.webp",
         "name": "Andre Russell",
         "country": "West Indies",
@@ -110,6 +121,7 @@
         "price": "$1,300,000"
     },
     {
+        "id": 12,
         "img": "https://i.ibb.co.com/kVPrLXz7/mujib.webp",
         "name": "Mujeeb Ur Rahman",
         "country": "Afghanistan",
@@ -120,6 +132,7 @@
         "price": "$1,100,000"
     },
     {
+        "id": 13,
         "img": "https://i.ibb.co.com/cSS7PVhD/boult.webp",
         "name": "Trent Boult",
         "country": "New Zealand",
@@ -130,6 +143,7 @@
         "price": "$1,300,000"
     },
     {
+        "id": 14,
         "img": "https://i.ibb.co.com/g2Z2dnv/deKock.webp",
         "name": "Quinton de Kock",
         "country": "South Africa",
@@ -140,6 +154,7 @@
         "price": "$1,200,000"
     },
     {
+        "id": 15,
         "img": "https://i.ibb.co.com/vxc0DRjN/maxwell.jpg",
         "name": "Glenn Maxwell",
         "country": "Australia",

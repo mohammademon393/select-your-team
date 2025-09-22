@@ -6,11 +6,17 @@ import banner from "../../assets/banner-main.png";
 const Navber = () => {
   return (
     <div>
-      <div className="navbar max-w-[1280px] mx-auto">
-        <div className="flex-1">
+      <div className="navbar justify-between max-w-[1280px] mx-auto">
+        <div className="">
           <a className="text-xl">
             <img className="w-[60px]" src={logoImg} alt="" />
           </a>
+        </div>
+        <div className="flex list-none gap-4 font-semibold">
+            <li>Home</li>
+            <li>Fixture</li>
+            <li>Teams</li>
+            <li>Schedule</li>
         </div>
         <div className="flex gap-2 btn items-center">
           <span>65000000</span>
@@ -27,7 +33,7 @@ const Navber = () => {
         style={{ backgroundImage: `url(${bgImg})` }}
         className="max-w-[1280px] mx-auto rounded-2xl bg-black bg-center h-[400px] flex flex-col items-center justify-center text-white mt-4"
       >
-        <img className="w-100%" src={banner} alt="" />
+        <img src={banner} alt="" />
         <h1 className="text-[40px] font-bold">
           Assemble Your Ultimate Dream 11 Cricket Team
         </h1>
