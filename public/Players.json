@@ -1,6 +1,6 @@
 [
     {
-        "img": "https://i.ibb.co/7zVJ6Vf/virat-kohli.jpg",
+        "img": "https://i.ibb.co.com/8nZg2r3d/v-kholi.webp",
         "name": "Virat Kohli",
         "country": "India",
         "playing_role": "Batsman",
@@ -10,7 +10,7 @@
         "price": "$1,800,000"
     },
     {
-        "img": "https://i.ibb.co/VLdM5Rj/ben-stokes.jpg",
+        "img": "https://i.ibb.co.com/kVnwNdFF/ben.jpg",
         "name": "Ben Stokes",
         "country": "England",
         "playing_role": "All-Rounder",
@@ -20,7 +20,7 @@
         "price": "$1,600,000"
     },
     {
-        "img": "https://i.ibb.co/3WvrL3s/kane-williamson.jpg",
+        "img": "https://i.ibb.co.com/Xr7TXv4X/kane.jpg",
         "name": "Kane Williamson",
         "country": "New Zealand",
         "playing_role": "Batsman",
@@ -30,7 +30,7 @@
         "price": "$1,400,000"
     },
     {
-        "img": "https://i.ibb.co/zskwYX4/jasprit-bumrah.jpg",
+        "img": "https://i.ibb.co.com/7txXHtcw/bumra.webp",
         "name": "Jasprit Bumrah",
         "country": "India",
         "playing_role": "Bowler",
@@ -40,7 +40,7 @@
         "price": "$1,500,000"
     },
     {
-        "img": "https://i.ibb.co/4ZZ2X9w/david-warner.jpg",
+        "img": "https://i.ibb.co.com/5Wp2qLnC/debid.jpg",
         "name": "David Warner",
         "country": "Australia",
         "playing_role": "Batsman",
@@ -50,7 +50,7 @@
         "price": "$1,300,000"
     },
     {
-        "img": "https://i.ibb.co/5cnj7Jf/rashid-khan.jpg",
+        "img": "https://i.ibb.co.com/zW0BgLMH/rashid.webp",
         "name": "Rashid Khan",
         "country": "Afghanistan",
         "playing_role": "Bowler",
@@ -60,7 +60,7 @@
         "price": "$1,200,000"
     },
     {
-        "img": "https://i.ibb.co/H7PSF6h/babar-azam.jpg",
+        "img": "https://i.ibb.co.com/5xjVhTG4/babr.jpg",
         "name": "Babar Azam",
         "country": "Pakistan",
         "playing_role": "Batsman",
@@ -70,7 +70,7 @@
         "price": "$1,700,000"
     },
     {
-        "img": "https://i.ibb.co/S7XvM1V/steve-smith.jpg",
+        "img": "https://i.ibb.co.com/n8BkY4Sv/smith.jpg",
         "name": "Steve Smith",
         "country": "Australia",
         "playing_role": "Batsman",
@@ -80,7 +80,7 @@
         "price": "$1,500,000"
     },
     {
-        "img": "https://i.ibb.co/F8zT7Tk/ms-dhoni.jpg",
+        "img": "https://i.ibb.co.com/4nmnLjWd/dhoni.jpg",
         "name": "MS Dhoni",
         "country": "India",
         "playing_role": "Wicket-Keeper",
@@ -90,7 +90,7 @@
         "price": "$1,600,000"
     },
     {
-        "img": "https://i.ibb.co/0CZQycx/shakib-al-hasan.jpg",
+        "img": "https://i.ibb.co.com/gMNTHtQS/Shakib.jpg",
         "name": "Shakib Al Hasan",
         "country": "Bangladesh",
         "playing_role": "All-Rounder",
@@ -100,7 +100,7 @@
         "price": "$1,400,000"
     },
     {
-        "img": "https://i.ibb.co/vw8SNsF/andre-russell.jpg",
+        "img": "https://i.ibb.co.com/3y8fL5BQ/russel.webp",
         "name": "Andre Russell",
         "country": "West Indies",
         "playing_role": "All-Rounder",
@@ -110,7 +110,7 @@
         "price": "$1,300,000"
     },
     {
-        "img": "https://i.ibb.co/pfCysVd/mujeeb-ur-rahman.jpg",
+        "img": "https://i.ibb.co.com/kVPrLXz7/mujib.webp",
         "name": "Mujeeb Ur Rahman",
         "country": "Afghanistan",
         "playing_role": "Bowler",
@@ -120,7 +120,7 @@
         "price": "$1,100,000"
     },
     {
-        "img": "https://i.ibb.co/ZfCNW2X/trent-boult.jpg",
+        "img": "https://i.ibb.co.com/cSS7PVhD/boult.webp",
         "name": "Trent Boult",
         "country": "New Zealand",
         "playing_role": "Bowler",
@@ -130,7 +130,7 @@
         "price": "$1,300,000"
     },
     {
-        "img": "https://i.ibb.co/N6mqg9K/quinton-de-kock.jpg",
+        "img": "https://i.ibb.co.com/g2Z2dnv/deKock.webp",
         "name": "Quinton de Kock",
         "country": "South Africa",
         "playing_role": "Wicket-Keeper",
@@ -140,7 +140,7 @@
         "price": "$1,200,000"
     },
     {
-        "img": "https://i.ibb.co/YpMDVqP/glenn-maxwell.jpg",
+        "img": "https://i.ibb.co.com/vxc0DRjN/maxwell.jpg",
         "name": "Glenn Maxwell",
         "country": "Australia",
         "playing_role": "All-Rounder",

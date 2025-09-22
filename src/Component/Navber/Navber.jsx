@@ -9,10 +9,10 @@ const Navber = () => {
       <div className="navbar max-w-[1280px] mx-auto">
         <div className="flex-1">
           <a className="text-xl">
-            <img src={logoImg} alt="" />
+            <img className="w-[60px]" src={logoImg} alt="" />
           </a>
         </div>
-        <div className="flex gap-2 btn justify-items-center">
+        <div className="flex gap-2 btn items-center">
           <span>65000000</span>
           <span className="flex gap-1">
             <p>Coin</p>
@@ -21,9 +21,11 @@ const Navber = () => {
         </div>
       </div>
 
+
+        {/* banner design */}
       <div
         style={{ backgroundImage: `url(${bgImg})` }}
-        className="max-w-[1280px] mx-auto rounded-2xl bg-black bg-center h-[400px] flex flex-col items-center justify-center text-white"
+        className="max-w-[1280px] mx-auto rounded-2xl bg-black bg-center h-[400px] flex flex-col items-center justify-center text-white mt-4"
       >
         <img className="w-100%" src={banner} alt="" />
         <h1 className="text-[40px] font-bold">
