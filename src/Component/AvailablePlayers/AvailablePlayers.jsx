@@ -7,7 +7,7 @@ const AvailablePlayers = ({ playersPromise }) => {
 //   console.log(players);
 
   return (
-    <div className="max-w-[1280px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-5 mt-28">
+    <div className="max-w-[1280px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-5 mt-2">
       {players.map((player) => (
         <div key={player.id} className="card bg-base-100 w-[410px] shadow-sm mb-2">
           <figure className="px-5 pt-5">
