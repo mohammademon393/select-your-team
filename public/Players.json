@@ -39,8 +39,8 @@
         "country": "India",
         "playing_role": "Bowler",
         "rating": 9.4,
-        "bowling_style": "Right-arm fast",
-        "batting_style": "Right-hand bat",
+        "bowling_style": "Right-hand bat",
+        "batting_style": "Right-arm fast",
         "price": "$1,500,000"
     },
     {
@@ -61,8 +61,8 @@
         "country": "Afghanistan",
         "playing_role": "Bowler",
         "rating": 9.1,
-        "bowling_style": "Right-arm legbreak googly",
-        "batting_style": "Right-hand bat",
+        "bowling_style": "Right-hand bat",
+        "batting_style": "Right-arm legbreak googly",
         "price": "$1,200,000"
     },
     {
@@ -127,8 +127,8 @@
         "country": "Afghanistan",
         "playing_role": "Bowler",
         "rating": 8.8,
-        "bowling_style": "Right-arm offbreak",
-        "batting_style": "Right-hand bat",
+        "bowling_style": "Right-hand bat",
+        "batting_style": "Right-arm offbreak",
         "price": "$1,100,000"
     },
     {
@@ -138,8 +138,8 @@
         "country": "New Zealand",
         "playing_role": "Bowler",
         "rating": 9.2,
-        "bowling_style": "Left-arm fast-medium",
-        "batting_style": "Right-hand bat",
+        "bowling_style": "Right-hand bat",
+        "batting_style": "Right-arm fast-medium",
         "price": "$1,300,000"
     },
     {

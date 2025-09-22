@@ -2,20 +2,29 @@ import manImg from "../../assets/icons8-man-50.png";
 import flagImg from "../../assets/icons8-flag-50.png";
 import { useState } from "react";
 
-const PlayerCard = ({ player, setAvailableValance, availableValance }) => {
+const PlayerCard = ({
+  player,
+  setAvailableValance,
+  availableValance,
+  setChoosePlayers,
+  choosePlayers }) => {
   const [isSelected, setIsSelected] = useState(false);
 
-  const handleValance =(playerData) =>{
-    const playerPrice = playerData.price.split("$").join("").split(",").join("");
+
+  const handleValance = (playerData) => {
+    const playerPrice = playerData.price
+      .split("$")
+      .join("")
+      .split(",")
+      .join("");
     if (availableValance < playerPrice) {
-      alert('Not enogth money')
+      alert("Not enogth money");
     }
-    setIsSelected(true),
-      setAvailableValance(
-        availableValance - playerPrice
-          
-      );
-  }
+    setIsSelected(true), setAvailableValance(availableValance - playerPrice);
+
+    setChoosePlayers([...choosePlayers, playerData]);
+  };
+
 
 
   return (
@@ -63,7 +72,7 @@ const PlayerCard = ({ player, setAvailableValance, availableValance }) => {
             <button
               disabled={isSelected}
               onClick={() => {
-                handleValance(player)
+                handleValance(player);
               }}
               className="btn font-bold bg-[#e7fe29]"
             >
