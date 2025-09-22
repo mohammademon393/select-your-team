@@ -17,8 +17,7 @@ function App() {
       <div>
         <Navber></Navber>
 
-        <div className="flex justify-between max-w-[1280px] mx-auto mt-8">
-          <h1 className="font-bold text-2xl">Availebale Players</h1>
+        <div className="flex justify-end items-center  max-w-[1280px] mx-auto mt-8 mb-5">
           <div className=" font-bold flex">
             <button
               onClick={() => setToggle(true)}

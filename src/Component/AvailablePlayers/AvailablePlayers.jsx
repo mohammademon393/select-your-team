@@ -1,61 +1,20 @@
 import React, { use } from "react";
-import manImg from "../../assets/icons8-man-50.png";
-import flagImg from "../../assets/icons8-flag-50.png";
+
+import PlayerCard from "../PlayerCard/PlayerCard";
 
 const AvailablePlayers = ({ playersPromise }) => {
   const players = use(playersPromise);
 //   console.log(players);
 
   return (
-    <div className="max-w-[1280px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-5 mt-2">
-      {players.map((player) => (
-        <div key={player.id} className="card bg-base-100 w-[410px] shadow-sm mb-2">
-          <figure className="px-5 pt-5">
-            <img
-              src={player.img}
-              alt="Shoes"
-              className="rounded-xl h-[240px] w-[400px]"
-            />
-          </figure>
+    <div className="max-w-[1280px] mx-auto mt-[-60px]">
+      <h1 className="font-bold text-2xl">Availebale Players</h1>
 
-          <div className="card-body ">
-            <div className="flex gap-2">
-              <img className="w-[25px]" src={manImg} alt="" />
-              <h2 className="card-title">{player.name}</h2>
-            </div>
-
-            <div className="flex justify-between">
-              <span className="flex gap-2 items-center ">
-                <img className="w-[20px] mt-2" src={flagImg} alt="" />
-                <p className="text-[#131313]">{player.country}</p>
-              </span>
-              <span className="btn">{player.playing_role}</span>
-            </div>
-
-            <h3 className="font-semibold text-[16px]">{player.rating}</h3>
-
-            <div className="flex gap-2 justify-between">
-              <span>
-                <h3 className="font-semibold text-[16px]">
-                  {player.batting_style}
-                </h3>
-              </span>
-              <span>
-                <p className="text-[16px] text-[rgba(19, 19, 19, 0.67)]">
-                  {player.bowling_style}
-                </p>
-              </span>
-            </div>
-
-            <div className="card-actions justify-between items-center">
-              <div className="font-bold text-[16px]">{player.price}</div>
-              <div>
-                <button className="btn font-bold">Choose Player</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      ))}
+      <div className="max-w-[1280px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-5 mt-5">
+        {players.map((player) => (
+          <PlayerCard key={player.id} player={player}></PlayerCard>
+        ))}
+      </div>
     </div>
   );
 };
