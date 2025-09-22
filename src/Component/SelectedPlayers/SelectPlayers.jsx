@@ -1,7 +1,7 @@
 import React from "react";
 import SelectedCard from "./SelectedCard";
 
-const SelectPlayers = ({ choosePlayers }) => {
+const SelectPlayers = ({ choosePlayers, removePlayers }) => {
   // console.log(choosePlayers);
 
   return (
@@ -10,7 +10,11 @@ const SelectPlayers = ({ choosePlayers }) => {
 
       <div className="mt-8">
         {choosePlayers.map((select) => (
-          <SelectedCard key={select.id} select={select}></SelectedCard>
+          <SelectedCard
+            key={select.id}
+            removePlayers={removePlayers}
+            select={select}
+          ></SelectedCard>
         ))}
       </div>
     </div>
