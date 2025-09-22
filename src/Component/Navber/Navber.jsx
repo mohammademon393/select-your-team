@@ -3,7 +3,7 @@ import coinImg from "../../assets/dollar.png";
 import bgImg from "../../assets/bg-shadow.png";
 import banner from "../../assets/banner-main.png";
 
-const Navber = () => {
+const Navber = ({ availableValance }) => {
   return (
     <div>
       <div className="navbar justify-between max-w-[1280px] mx-auto">
@@ -13,13 +13,13 @@ const Navber = () => {
           </a>
         </div>
         <div className="flex list-none gap-4 font-semibold">
-            <li>Home</li>
-            <li>Fixture</li>
-            <li>Teams</li>
-            <li>Schedule</li>
+          <li>Home</li>
+          <li>Fixture</li>
+          <li>Teams</li>
+          <li>Schedule</li>
         </div>
         <div className="flex gap-2 btn items-center">
-          <span>65000000</span>
+          <span>{availableValance}</span>
           <span className="flex gap-1">
             <p>Coin</p>
             <img className="w-5 h-5" src={coinImg} alt="" />
@@ -27,8 +27,7 @@ const Navber = () => {
         </div>
       </div>
 
-
-        {/* banner design */}
+      {/* banner design */}
       <div
         style={{ backgroundImage: `url(${bgImg})` }}
         className="max-w-[1280px] mx-auto rounded-2xl bg-black bg-center h-[400px] flex flex-col items-center justify-center text-white mt-4"

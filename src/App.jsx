@@ -10,12 +10,13 @@ const playersPromise = fetch("./Players.json").then((res) => res.json());
 function App() {
 
   const [toggle, setToggle] = useState(true);
+  const [availableValance, setAvailableValance] = useState(3500000)
 
 
   return (
     <>
       <div>
-        <Navber></Navber>
+        <Navber availableValance={availableValance}></Navber>
 
         <div className="flex justify-end items-center  max-w-[1280px] mx-auto mt-8 mb-5">
           <div className=" font-bold flex">
@@ -33,13 +34,17 @@ function App() {
                 toggle === false ? "bg-[#e7fe29]" : ""
               }`}
             >
-              Selected <span>(0)</span>
+              Selected (<span>0</span>)
             </button>
           </div>
         </div>
 
         {toggle === true ? (
-          <AvailablePlayers playersPromise={playersPromise}></AvailablePlayers>
+          <AvailablePlayers
+            availableValance={availableValance}
+            setAvailableValance={setAvailableValance}
+            playersPromise={playersPromise}
+          ></AvailablePlayers>
         ) : (
           <SelectPlayers></SelectPlayers>
         )}
